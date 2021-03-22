@@ -16,7 +16,7 @@ int cbinsearch(int *arr, int size, int value) {
       L++;
     }
   }
-  if (numbers != 0)
+  if (numbers)
     return numbers;
   else
     return 0;
